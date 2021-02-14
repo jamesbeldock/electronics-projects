@@ -1,0 +1,68 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L power:+12V #PWR?
+U 1 1 602976DB
+P 1150 1350
+F 0 "#PWR?" H 1150 1200 50  0001 C CNN
+F 1 "+12V" H 1165 1523 50  0000 C CNN
+F 2 "" H 1150 1350 50  0001 C CNN
+F 3 "" H 1150 1350 50  0001 C CNN
+	1    1150 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:-12V #PWR?
+U 1 1 602982A7
+P 1150 1650
+F 0 "#PWR?" H 1150 1750 50  0001 C CNN
+F 1 "-12V" H 1165 1823 50  0000 C CNN
+F 2 "" H 1150 1650 50  0001 C CNN
+F 3 "" H 1150 1650 50  0001 C CNN
+	1    1150 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L Connector:Conn_01x06_Female J?
+U 1 1 60299C4A
+P 2150 1500
+F 0 "J?" H 2178 1476 50  0000 L CNN
+F 1 "Conn_01x06_Female" H 2178 1385 50  0000 L CNN
+F 2 "" H 2150 1500 50  0001 C CNN
+F 3 "~" H 2150 1500 50  0001 C CNN
+	1    2150 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1950 1500 1150 1500
+Wire Wire Line
+	1150 1500 1150 1350
+Wire Wire Line
+	1950 1600 1150 1600
+Wire Wire Line
+	1150 1600 1150 1650
+$Comp
+L Device:R_POT RV?
+U 1 1 6029ECF2
+P 2950 1100
+F 0 "RV?" V 2743 1100 50  0000 C CNN
+F 1 "R_POT" V 2834 1100 50  0000 C CNN
+F 2 "" H 2950 1100 50  0001 C CNN
+F 3 "~" H 2950 1100 50  0001 C CNN
+	1    2950 1100
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC
