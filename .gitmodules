@@ -1,0 +1,3 @@
+[submodule "Electronics/XC-0001-Gate_LEDs Rev 4/ESP32-C6-EVB"]
+	path = Electronics/XC-0001-Gate_LEDs Rev 4/ESP32-C6-EVB
+	url = https://github.com/OLIMEX/ESP32-C6-EVB.git
