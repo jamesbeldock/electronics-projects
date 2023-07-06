@@ -132,3 +132,4 @@ dmypy.json
 # JGB James changes
 *backup*
 Electronics/XC-0001-Gate_LEDs Rev 3/XC-0001-Gate_LEDs-backups/XC-0001-Gate_LEDs-2021-03-21_104332.zip
+.DS_Store
