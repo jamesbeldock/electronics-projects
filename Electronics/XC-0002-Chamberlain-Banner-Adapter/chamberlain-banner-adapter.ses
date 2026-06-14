@@ -1,0 +1,255 @@
+(session "gate-banner-adapter-1.ses"
+  (base_design "gate-banner-adapter-1.dsn")
+  (placement
+    (resolution um 10)
+    (component "TestPoint:TestPoint_Pad_D2.0mm"
+      (place TP4 745000 -855000 front 0)
+      (place TP3 745000 -800000 front 0)
+      (place TP5 745000 -905000 front 0)
+      (place TP2 745000 -750000 front 0)
+      (place TP1 745000 -700000 front 0)
+    )
+    (component "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx43SMTR"
+      (place SW1 901500 -1015000 front 0)
+    )
+    (component "Button_Switch_SMD:SW_Push_1P1T_NO_CK_PTS125Sx43SMTR::1"
+      (place SW3 1271500 -1015000 front 0)
+      (place SW2 1086500 -1015000 front 0)
+    )
+    (component "TerminalBlock_MetzConnect:TerminalBlock_MetzConnect_Type101_RT01605HBWC_1x05_P5.08mm_Horizontal"
+      (place J2 1455000 -695000 front 270)
+      (place J1 645000 -700000 front 270)
+    )
+    (component "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+      (place D2 925000 -800000 front 0)
+      (place D1 925000 -750000 front 0)
+    )
+  )
+  (was_is
+  )
+  (routes 
+    (resolution um 10)
+    (parser
+      (host_cad "KiCad's Pcbnew")
+      (host_version "10.0.3")
+    )
+    (library_out 
+      (padstack "Via[0-1]_800:400_um"
+        (shape
+          (circle F.Cu 8000 0 0)
+        )
+        (shape
+          (circle B.Cu 8000 0 0)
+        )
+        (attach off)
+      )
+      (padstack "Via[0-1]_800:400_um"
+        (shape
+          (circle F.Cu 8000 0 0)
+        )
+        (shape
+          (circle B.Cu 8000 0 0)
+        )
+        (attach off)
+      )
+    )
+    (network_out 
+      (net "/Blink"
+        (wire
+          (path F.Cu 2500
+            1455000 -898200
+            1099400 -898200
+            1001200 -800000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1001200 -800000
+            946200 -855000
+            745000 -855000
+          )
+        )
+        (wire
+          (path B.Cu 2500
+            1001200 -750000
+            1001200 -800000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            645000 -852400
+            742400 -852400
+            745000 -855000
+          )
+          (type protect)
+        )
+      )
+      (net "/Red Output"
+        (wire
+          (path F.Cu 2500
+            1158000 -1040000
+            1015000 -1040000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            994001 -1036205
+            1011205 -1036205
+            1015000 -1040000
+          )
+        )
+        (via "Via[0-1]_800:400_um" 994001 -1036205
+        )
+        (wire
+          (path B.Cu 2500
+            925000 -750000
+            913195 -761805
+            913195 -955399
+            994001 -1036205
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            925000 -750000
+            936584 -761584
+            1439216 -761584
+            1455000 -745800
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            645000 -750800
+            744200 -750800
+            745000 -750000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            745000 -750000
+            925000 -750000
+          )
+          (type protect)
+        )
+      )
+      (net "/Green Output"
+        (wire
+          (path F.Cu 2500
+            925000 -800000
+            936674 -788326
+            1446726 -788326
+            1455000 -796600
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            645000 -801600
+            743400 -801600
+            745000 -800000
+          )
+          (type protect)
+        )
+        (wire
+          (path F.Cu 2500
+            745000 -800000
+            925000 -800000
+          )
+          (type protect)
+        )
+      )
+      (net "/Com –"
+        (wire
+          (path F.Cu 2500
+            867753 -1036205
+            969205 -1036205
+            973000 -1040000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            867753 -1036205
+            833795 -1036205
+            830000 -1040000
+          )
+        )
+        (via "Via[0-1]_800:400_um" 867753 -1036205
+        )
+        (wire
+          (path B.Cu 2500
+            645000 -700000
+            867753 -922753
+            867753 -1036205
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            745000 -700000
+            1450000 -700000
+            1455000 -695000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            645000 -700000
+            745000 -700000
+          )
+          (type protect)
+        )
+      )
+      (net "unconnected-(SW3-Pad2)"
+        (wire
+          (path F.Cu 2500
+            1343000 -1040000
+            1200000 -1040000
+          )
+        )
+      )
+      (net "Net-(J1-Pin_5)"
+        (wire
+          (path F.Cu 2500
+            830000 -990000
+            973000 -990000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1158000 -990000
+            1015000 -990000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1343000 -990000
+            1200000 -990000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1015000 -990000
+            973000 -990000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            1158000 -990000
+            1200000 -990000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            745000 -905000
+            830000 -990000
+          )
+        )
+        (wire
+          (path F.Cu 2500
+            645000 -903200
+            743200 -903200
+            745000 -905000
+          )
+          (type protect)
+        )
+      )
+    )
+  )
+)
