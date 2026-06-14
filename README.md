@@ -1,5 +1,14 @@
 # Electronics Projects
 
+Various electronics projects, mostly for home automation. I am not a professional electrical engineer. See Disclaimer :) 
+
+## LED Control Board `XC-0001 Rev 2`
+
+Originally designed to power 12V lighted house numerals from Luxello and constant-current LEDs using an off-board part.
+<img width="500" alt="pcb_hero" src="https://github.com/user-attachments/assets/74cabdbd-89e3-43a0-9403-98fff847c137" />
+
+<img width="500" alt="3d_hero" src="https://github.com/user-attachments/assets/595df8e7-fd6f-4c93-bd42-8758740838f9" />
+
 ## Disclaimer
 This repository contains electronics designs, schematics, board layouts, firmware, and related materials (the "Materials") provided for educational and informational purposes only. The Materials are distributed under the MIT License (see LICENSE).
 
