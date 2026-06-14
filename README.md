@@ -1,5 +1,8 @@
 # Electronics Projects
 
+Various electronics projects, mostly for home automation. I am not a professional electrical engineer. See Disclaimer :) 
+
+
 ## Disclaimer
 This repository contains electronics designs, schematics, board layouts, firmware, and related materials (the "Materials") provided for educational and informational purposes only. The Materials are distributed under the MIT License (see LICENSE).
 
